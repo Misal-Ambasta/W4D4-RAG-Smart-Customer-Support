@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
+*.db
+*.pkl
+*.log
+.ipynb_checkpoints/
+.venv/
+.env
+
+# FastAPI/Backend
+backend/.env
+backend/data/*.db
+backend/data/*.pkl
+backend/data/*.json
+
+# ChromaDB
+chroma/
+
+# Node/React/Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Editor/OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test/Type check
+.pytest_cache/
+.mypy_cache/
+
+# Misc
+*.swp
+todo.md
+backend/data/*.*
